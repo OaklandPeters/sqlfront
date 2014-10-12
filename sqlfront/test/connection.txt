@@ -1,0 +1,9 @@
+
+
+
+Connection Method: STandard (TCP/IP)
+Hostname: 127.0.0.1
+Port: 3306
+Username: root
+
+db = MySQLdb.connect(host="127.0.0.1", user="root", db="test", port=3306)
