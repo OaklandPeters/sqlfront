@@ -28,7 +28,7 @@ from ..util.utilities import _read_config
 from ..extern import rich_core
 from ..extern import clsproperty
 from ..extern.nulltype import NotPassed, NotPassedType, NullType
-
+    
 class MySQLConnection(SQLConnection, MySQLDialect):
 #     # Class-level Defaults for connection parameters
 #     _host = "127.0.0.1" #str

@@ -8,3 +8,5 @@ class SQLCommand(SQLDialect, StringTemplate):
     __metaclass__ = ABCMeta
     def format(self, *args, **kwargs):
         return SQLDialect.format(self, *args, **kwargs)
+    
+    
